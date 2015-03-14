@@ -2,24 +2,38 @@
 
 This README outlines the details of collaborating on this Ember addon.
 
-## Installation
+## Usage
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+`{{classy-loader}}`
 
-## Running
+`{{classy-loader percentage="75"}}`
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+`{{classy-loader percentage="75" height="150" width="150"}}`
 
-## Running Tests
+`{{classy-loader percentage="75" animate=false action="draw"}}`
 
-* `ember test`
-* `ember test --server`
+`{{classy-loader percentage="75" speed="25"}}`
 
-## Building
+`{{classy-loader percentage="75" showRemaining=false}}`
 
-* `ember build`
+`{{classy-loader percentage="75" start="bottom"}}`
+
+`{{classy-loader percentage="75" fontFamily="times"}}`
+
+`{{classy-loader percentage="75" showText=false}}`
+
+`{{classy-loader percentage="75" fontSize="32px"}}`
+
+`{{classy-loader percentage="75" roundedLine=true}}`
+
+`{{classy-loader percentage="75" diameter="40"}}`
+
+`{{classy-loader percentage="75" fontColor="blue"}}`
+
+`{{classy-loader percentage="75" lineColor="blue"}}`
+
+`{{classy-loader percentage="75" remainingLineColor="blue"}}`
+
+`{{classy-loader percentage="75" lineWidth="10"}}`
 
 For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
