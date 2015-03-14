@@ -1,4 +1,4 @@
-# Ember-cli-jquery-classy-loader
+# ember-cli-jquery-classy-loader
 
 This README outlines the details of collaborating on this Ember addon.
 
