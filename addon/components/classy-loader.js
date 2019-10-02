@@ -20,7 +20,7 @@ export default Ember.Component.extend({
   lineWidth: undefined,
   loader: null,
   setupClassyLoader: function () {
-    this.set('loader', this.$().ClassyLoader({
+    this.set('loader', this.element.addEventListener({
       width: this.get('width'),
       height: this.get('height'),
       animate: this.get('animate'),
